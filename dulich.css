@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(241, 234, 234);
+}
+.nhay{
+    color: red;
+    -webkit-animation: mymove 1s ease infinite;
+    
+}   
+    /* Simple Animation */
+    @-webkit-keyframes mymove
+    {
+    0% {opacity:1.0; text-shadow:0 0 20px red;}
+    50% {opacity:0; text-shadow:none; }
+    100% {opacity:1.0; text-shadow:0 0 20px red;}
+    }
+    
+    @-moz-keyframes mymove
+    {
+    0% {opacity:1.0; text-shadow:0 0 20px #ff0000;}
+    50% {opacity:0; text-shadow:none; }
+    100% {opacity:1.0; text-shadow:0 0 20px red; }
+}
+.navbar{
+    background-color: rgb(241, 234, 234);
+    
+}
+.navbar-brand{
+  font-family: cursive;
+}
+#navbarTogglerDemo03{
+    margin-left: 30px;
+}
+.nav-link span{
+    color: rgb(245, 71, 129);
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+.carousel-item img{
+    height: 50%;
+    width: 100%;
+}
+.carousel-caption{
+    bottom: 10%;
+    font-size: x-large;
+}
+.content{
+    margin-top:50px ;
+}
+.content .title1  {
+    color: black;
+    font-size: larger;
+    background-color: hsl(30, 23%, 95%);
+    text-align: center;
+}
+.content .container{
+    margin-top:30px;
+}
+.content .container .select{
+    background-color: white;
+    line-height: 2; 
+}
+.content .container .select .col-sm-6{
+  margin: 0 auto;
+}
+.content .container .row .col-sm-6{
+    margin-top: 15px; 
+}
+.content .container .row .col-sm-6 img{
+    float: left ;
+    clear: both;
+}
+.content .container .row .col-sm-6 p{
+    margin-left:50px;
+    color: rgb(83, 80, 80);
+    text-decoration: none;
+}
+.content .container .row .col-sm-6 :hover p{
+    font-size: 20px;
+    color:black;
+    
+}
+.content .thanh-ngang{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-image: url('image/halong-4907355_1920.jpg');
+    background-repeat: no-repeat; /* ảnh chỉ xuất hiện 1 lần*/
+    background-attachment: fixed; /* Làm cho ảnh cố định khi move-dowm */
+    background-size: 100% 100%;
+    filter:brightness(95%);  /*Làm tối backgound hình ảnh */
+    position: relative;
+
+}
+.content .thanh-ngang .text{
+    
+    position: absolute;
+    text-align: center;
+    color: white;
+    left:20px;
+    top:30px;
+}
+.content .thanh-ngang .btn{
+  margin-top: 2rem;
+}
+.content .thanh-ngang .text .gift{
+    color: red;
+}
+.title-tour .xemthem-link{
+    color: red;
+    font-size: 14px;
+}
+.tour .row .col-md-3 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.tour .row .col-md-3 .card {
+    border: none;
+}
+.tour .row .col-md-3 .card a {  
+    overflow: hidden; 
+}
+.tour .row .col-md-3 .card   :hover img {
+    filter:brightness(80%); 
+    transition-duration: 1s; 
+    -webkit-transform: scale(1.2); transform: scale(1.2)
+}
+.tour .row .col-md-3 .card .card-body .card-text{
+    font-weight: bold;
+    color: rgb(83, 77, 77) ;
+}
+.card-footer .row .col-7{
+    font-size: small;
+}
+.card-footer .row .font{
+    font-size: small;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: black;
+    text-decoration: line-through;
+}
+.card-footer .row .after{
+    font-size: small;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: rgb(235, 80, 80);
+    font-weight: bold;
+}
+.menutag .title1{
+    margin-top: 30px;
+}
+.tuvan{
+
+    width: 100%;
+    height: 100%;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content #whychoose{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(223, 73, 93);
+}
+.content #whychoose .row {
+  text-align: center; 
+  color:white;
+  font-size: small;
+}
+.container .row .col12 .text {
+    font-size: 30px;
+}
+footer.page-footer.font-small.stylish-color-dark.pt-8{
+    color: white;
+    background-color: rgb(214, 51, 51);
+}
+footer.page-footer.font-small.stylish-color-dark.pt-8 a{
+    color:white;
+}
+.footer-copyright{
+    background-color: rgb(58, 56, 56);
+}
+.mtp h4,span{
+  font-weight: bold; 
+}
+.mtp p{
+  margin-top: 50px;
+  font-size: 14px;
+}
+.mtp .img-thuexe{
+  margin-top: 30px;
+  background-color: white;
+}
+.content .title-link a{
+  text-decoration: none;
+  color: rgb(95, 93, 93);
+  font-size: smaller;
+}
+.content .title-link p :hover{
+  color: black;
+  font-size: small;
+}
+.content .title-link span{
+  color: black;
+  font-size: 12px;
+}
+.card-footer .row-tintuc{
+  margin-bottom: 5px;
+}
+.card-footer .row-tintuc a{
+  color: rgb(63, 61, 61);
+  text-decoration: none;
+}
+.card-footer .row-tintuc :hover a{
+  color: rgb(235, 101, 124);
+  transition-duration: 0.6s; 
+}
+.chitietdulich{
+  margin-top: 50px;
+}
+.chitietdulich .content{
+  margin-top: 30px;
+}
+.chitietdulich .title{
+  font-size: large;
+  font-weight: bold;
+}
+.chitietdulich h4{
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.chitietdulich b{
+  color: rgb(83, 81, 81);
+}
+.chitietdulich p{
+  font-size: smaller;
+  color: #333;
+}
+.chitietdulich .content{
+  margin-bottom: 3rem;
+}
+.chitietdulich .content .time{
+  margin-left: auto;
+  margin-right: auto;
+}
+.chitietdulich .content .menu-day{
+  color: #ed0080;
+}
+.chitietdulich .content div{
+  text-align: center;
+  margin:20px auto;
+}
+
